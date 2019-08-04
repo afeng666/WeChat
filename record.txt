@@ -1,0 +1,11 @@
+
+1.初次使用git，在执行完"git add readme.txt"命令后，在执行commit时，由于命令写错，没有写提交日志，再次更正提交就出现上述错误：Unable to create 'E:/xxx/.git/index.lock': File exists
+
+
+
+解决方案：在.git同级目录，执行rm -f .git/index.lock    将文件删除即可提交成功
+--------------------- 
+作者：darlinghqq 
+来源：CSDN 
+原文：https://blog.csdn.net/darlinghqq/article/details/78404301 
+版权声明：本文为博主原创文章，转载请附上博文链接！
